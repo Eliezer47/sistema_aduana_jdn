@@ -20,7 +20,7 @@ const Login: React.FC = () => {
     if (username === "" && password === "") {
       // Iniciar sesión exitosa
       console.log("Inicio de sesión exitoso");
-      navigate("/menu");
+      navigate("/*");
     } else {
       // Credenciales incorrectas
       console.log("Credenciales incorrectas");
