@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sistema_aduana_jdn/static/css/main.30ea52ad.css",
+    "main.js": "/sistema_aduana_jdn/static/js/main.6c13765f.js",
+    "static/js/787.e75cee93.chunk.js": "/sistema_aduana_jdn/static/js/787.e75cee93.chunk.js",
+    "index.html": "/sistema_aduana_jdn/index.html",
+    "main.30ea52ad.css.map": "/sistema_aduana_jdn/static/css/main.30ea52ad.css.map",
+    "main.6c13765f.js.map": "/sistema_aduana_jdn/static/js/main.6c13765f.js.map",
+    "787.e75cee93.chunk.js.map": "/sistema_aduana_jdn/static/js/787.e75cee93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30ea52ad.css",
+    "static/js/main.6c13765f.js"
+  ]
+}
