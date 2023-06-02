@@ -1,0 +1,15 @@
+.buttonsArchivo {
+    margin-top: 30px;
+    letter-spacing: 8px;
+    margin-left: 50px;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.buttonsRubros{
+    margin-top: 65px;
+    letter-spacing: 8px;
+    margin-left: 50px;
+    flex-direction: row;
+    padding-bottom: 20px;
+
+}
