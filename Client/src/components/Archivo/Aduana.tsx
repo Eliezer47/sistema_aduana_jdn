@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Button, Table, Form, Container } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import css from "./Archivo.module.css";
 
 type Registro = {
@@ -105,20 +107,22 @@ export const Aduana = () => {
               (modo === ModoFormulario.Editar && !codigo)
             }
           >
-            Guardar
+            <i className="bi bi-save-fill">{"\n"}</i>Guardar
           </Button>{" "}
           <Button
-            variant="secondary"
+            variant="danger"
             onClick={cancelarEdicion}
             disabled={modo === ModoFormulario.Ninguno}
           >
+            <i className="bi bi-x-octagon-fill">{"\n"}</i>
             Cancelar
           </Button>{" "}
           <Button variant="info" onClick={nuevoRegistro}>
-            Nuevo
+            <i className="bi bi-plus-circle" />
+            {"\n"}Nuevo
           </Button>{" "}
-          <Button variant="secondary" onClick={() => {}}>
-            Imprimir
+          <Button variant="success" onClick={() => {}}>
+            <i className="bi bi-file-earmark-spreadsheet"></i> Imprimir
           </Button>
         </div>
       </Container>

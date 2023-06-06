@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Button, Table, Form, Container } from "react-bootstrap";
 import css from "./Archivo.module.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 type Registro = {
   codigo: string;
@@ -142,20 +144,21 @@ export const Rubros = () => {
               (modo === ModoFormulario.Editar && !codigo)
             }
           >
-            Guardar
+            <i className="bi bi-save-fill"></i>
+            {"\n"}Guardar
           </Button>{" "}
           <Button
-            variant="secondary"
+            variant="danger"
             onClick={cancelarEdicion}
             disabled={modo === ModoFormulario.Ninguno}
           >
-            Cancelar
+            <i className="bi bi-x-octagon-fill"></i> {"\n"}Cancelar
           </Button>{" "}
           <Button variant="info" onClick={nuevoRegistro}>
-            Nuevo
+            <i className="bi bi-plus-circle">{"\n"}</i>Nuevo
           </Button>{" "}
           <Button variant="secondary" onClick={() => {}}>
-            Imprimir
+            <i className="bi bi-printer-fill">{"\n"}</i>Imprimir
           </Button>
         </div>
       </Container>
