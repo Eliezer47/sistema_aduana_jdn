@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/sistema_aduana_jdn/static/css/main.9ab0cf6d.css",
-    "main.js": "/sistema_aduana_jdn/static/js/main.9d45b02d.js",
+    "main.css": "/sistema_aduana_jdn/static/css/main.8ad8d40e.css",
+    "main.js": "/sistema_aduana_jdn/static/js/main.d700c41c.js",
     "static/js/787.e75cee93.chunk.js": "/sistema_aduana_jdn/static/js/787.e75cee93.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/sistema_aduana_jdn/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/sistema_aduana_jdn/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/sistema_aduana_jdn/index.html",
-    "main.9ab0cf6d.css.map": "/sistema_aduana_jdn/static/css/main.9ab0cf6d.css.map",
-    "main.9d45b02d.js.map": "/sistema_aduana_jdn/static/js/main.9d45b02d.js.map",
+    "main.8ad8d40e.css.map": "/sistema_aduana_jdn/static/css/main.8ad8d40e.css.map",
+    "main.d700c41c.js.map": "/sistema_aduana_jdn/static/js/main.d700c41c.js.map",
     "787.e75cee93.chunk.js.map": "/sistema_aduana_jdn/static/js/787.e75cee93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ab0cf6d.css",
-    "static/js/main.9d45b02d.js"
+    "static/css/main.8ad8d40e.css",
+    "static/js/main.d700c41c.js"
   ]
 }
