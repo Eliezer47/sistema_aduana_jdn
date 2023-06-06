@@ -15,10 +15,19 @@ export function Clientes() {
   return (
     <Container>
       <div>
+        <h3 className={`${css.title} ${css.Brothers}`}>Clientes</h3>
+        <Form className={css.searchBar}>
+          <Form.Group>
+            <Form.Control type="text" placeholder="Buscar..." />
+          </Form.Group>
+        </Form>
+      </div>
+      <div>
         <div className={css.buttonsClientes}>
           <Button variant="info" className="btn btn-primary mx-2">
             <i className="bi bi-plus-circle">{"\n"}</i>Nuevo
           </Button>
+
           <Button variant="secondary" className="btn mx-2 ">
             <i className="bi bi-pencil-square">{"\n"}</i>Editar
           </Button>
@@ -129,7 +138,11 @@ export function Clientes() {
               </Form>
               <Form className="my-1">
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Control type="text" placeholder="Nombre" />
+                  <Form.Control
+                    type="text"
+                    placeholder="Fecha y Hora de Registro"
+                    className="w-50"
+                  />
                 </Form.Group>
               </Form>
             </div>

@@ -68,7 +68,7 @@ export const Rubros = () => {
 
   return (
     <Container className="mt-4">
-      <h3>Rubros</h3>
+      <h3 className={css.Brothers}>Rubros</h3>
       <Container className="d-flex mb-4 ">
         <div className="row">
           <Form className="col">

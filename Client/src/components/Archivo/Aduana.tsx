@@ -67,7 +67,7 @@ export const Aduana = () => {
 
   return (
     <Container className="mt-4">
-      <h3>Aduanas</h3>
+      <h3 className={css.Brothers}> Aduanas</h3>
       <Container className="d-flex ">
         <div>
           <Form>

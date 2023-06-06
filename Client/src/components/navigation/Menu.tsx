@@ -1,19 +1,20 @@
 import React from "react";
 import { Nav, NavDropdown, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import css from "./navigation.module.css";
 
 const NavigationMenu: React.FC = () => {
   const navigate = useNavigate();
   const handleLogout = () => {
     // Lógica para cerrar sesión
     // ...
-    navigate("/login", {replace: true});
+    navigate("/login", { replace: true });
   };
 
   return (
     <Nav className="navbar navbar-expand-lg navbar-light bg-light p-2">
       <Nav.Item className="nav-item">
-        <NavDropdown title="Archivo" className="nav-link">
+        <NavDropdown title="Archivo" className="nav-link ">
           <NavDropdown.Item onClick={() => navigate("/aduana")}>
             Aduanas
           </NavDropdown.Item>
@@ -89,19 +90,13 @@ const NavigationMenu: React.FC = () => {
       </Nav.Item>
       <Nav.Item className="nav-item">
         <NavDropdown title="Herramientas" className="nav-link">
-          <NavDropdown.Item
-            onClick={() => navigate("/permisosusuarios")}
-          >
+          <NavDropdown.Item onClick={() => navigate("/permisosusuarios")}>
             Permisos y usuarios
           </NavDropdown.Item>
-          <NavDropdown.Item
-            onClick={() => navigate("/cerrarpoliza")}
-          >
+          <NavDropdown.Item onClick={() => navigate("/cerrarpoliza")}>
             Cerrar poliza
           </NavDropdown.Item>
-          <NavDropdown.Item
-            onClick={() => navigate("/liberarpoliza")}
-          >
+          <NavDropdown.Item onClick={() => navigate("/liberarpoliza")}>
             Liberar poliza
           </NavDropdown.Item>
         </NavDropdown>

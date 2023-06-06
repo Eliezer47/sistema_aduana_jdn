@@ -36,3 +36,32 @@ font-weight:500;
 letter-spacing: 0.5px;
 padding-bottom: 16px;
 }
+.title{
+position: absolute;
+
+    letter-spacing: 2px;
+    
+}
+@font-face {
+    font-family: Brothers;
+    src: url("../../assets/fonts/Brothers_Regular.otf");
+  }
+  
+  .Brothers{
+  
+    font-family: Brothers;
+  }
+  @font-face {
+    font-family: Berlingske;
+    src: url("../../assets/fonts/BerlingskeSerif-Regular.ttf");
+  }
+  
+  .Berlingske{
+  
+    font-family: Berlingske;
+  }
+  .searchBar{
+
+    position: absolute;
+    right: 125px;
+  }
