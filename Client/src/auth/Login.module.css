@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Brothers;
+    src: url("../assets/fonts/Brothers_Regular.otf");
+  }
+  
+  .Brothers{
+  
+    font-family: Brothers;
+  }
+  @font-face {
+    font-family: Berlingske;
+    src: url("../assets/fonts/BerlingskeSerif-Regular.ttf");
+  }
+  
+  .Berlingske{
+
+    font-family: Berlingske;
+  }
+
+  .Portada{
+  flex-basis: 0;
+  flex-grow: 1;
+
+    
+  }
+  .Background{
+height: fit-content;
+  
+  }

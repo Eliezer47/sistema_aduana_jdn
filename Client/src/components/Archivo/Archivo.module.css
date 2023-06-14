@@ -21,6 +21,10 @@ flex-direction: row;
 margin-top: 0.5rem; /* 8px */
 margin-bottom: 0.5rem; /* 8px */
 }
+.buttonsProveedores{
+  flex: 1;
+  letter-spacing: 8px;
+}
 .textboxClientes{
 flex: 5;
 display: flex;
@@ -28,13 +32,13 @@ flex-direction:column ;
 
 }
 .LabelDate{
-
     margin-top: 7px;
+    white-space: nowrap;
 }
 .textLabels{
 font-weight:500;
 letter-spacing: 0.5px;
-padding-bottom: 16px;
+padding-bottom: 24px;
 }
 .title{
 position: absolute;
