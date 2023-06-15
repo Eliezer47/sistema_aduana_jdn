@@ -77,7 +77,7 @@ export function Provedores() {
                         Pais
                       </Form.Label>
                       <Form.Label className={`row ${css.textLabels}`}>
-                        Fecha y hora de registro
+                        Direccion
                       </Form.Label>
                     </Form.Group>
                   </Form>
@@ -121,38 +121,60 @@ export function Provedores() {
                       <CheckboxComponent />
                     </Form.Group>
                   </Form>
-                  <Form className="col my-1">
+                  <Form className="col-8 my-1">
                     <div className="row">
                       <Form.Group className="col" controlId="formBasicEmail">
-                        <Form.Control
-                          type="text"
-                          placeholder="Pais"
-                          className="w-100"
-                        />
-                      </Form.Group>
-                      <Form.Group className="col" controlId="formBasicEmail">
-                        <Form.Label className={`float-end ${css.LabelDate}`}>
-                          RUC
-                        </Form.Label>
-                      </Form.Group>
-                      <Form.Group className="col">
-                        <Form.Control
-                          type="text"
-                          placeholder="RUC"
-                          className="w-100"
-                        />
+                        <Form.Select placeholder="Pais" className="w-100" />
                       </Form.Group>
                     </div>
                   </Form>
-                  <Form className="my-3">
+                  <Form className="my-2">
                     <Form.Group controlId="formBasicEmail">
-                      <Form.Control
-                        type="text"
-                        placeholder="Fecha y Hora de Registro"
-                        className="w-50"
-                      />
+                      <Form.Control type="text" placeholder="Direccion" />
                     </Form.Group>
                   </Form>
+                </div>
+
+                <div className="my-5">
+                  <div className="row">
+                    <div className="col-2">
+                      {" "}
+                      <Form.Label className={`row ${css.textLabels2}`}>
+                        Registrado por
+                      </Form.Label>
+                    </div>
+                    <div className={`col `}>
+                      <Form>
+                        <Form.Group controlId="formBasicEmail">
+                          <Form.Control
+                            type="text"
+                            placeholder="Registrado por:"
+                            className="w-75"
+                          />
+                        </Form.Group>
+                      </Form>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className={`col-2 `}>
+                      <Form.Label className={`row ${css.textLabels2}`}>
+                        Fecha y hora de registro
+                      </Form.Label>
+                    </div>
+                    <div className="col">
+                      <Form>
+                        <Form.Group controlId="formBasicEmail">
+                          <DatePicker
+                            selected={selectedDate}
+                            onChange={handleDateChange}
+                            dateFormat="dd/MM/yyyy"
+                            placeholderText="Seleccione una fecha"
+                            className="form-control w-75"
+                          />
+                        </Form.Group>
+                      </Form>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
