@@ -1,0 +1,27 @@
+.importsbuttons{
+    text-align: center;
+    margin-top: 10px;
+}
+.textLabels{
+    font-weight:500;
+    letter-spacing: 0.5px;
+
+    white-space: nowrap;
+    }
+.textLabels2{
+    
+   justify-content: flex-end;
+   font-weight:500;
+   letter-spacing: 0.5px;
+   padding-bottom: 10px;
+   white-space: nowrap;
+}
+.css.textbox{
+
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+.textbox2{
+
+margin-top: 15%;
+}
